@@ -12,6 +12,16 @@
 		3EC324C91C670D71001A631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC324C71C670D71001A631C /* Main.storyboard */; };
 		3EC324CB1C670D71001A631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC324CA1C670D71001A631C /* Assets.xcassets */; };
 		3EC324CE1C670D71001A631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC324CC1C670D71001A631C /* LaunchScreen.storyboard */; };
+		3EC324D61C672BDC001A631C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324D51C672BDC001A631C /* SignInViewController.swift */; };
+		3EC324D81C672BED001A631C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324D71C672BED001A631C /* SignUpViewController.swift */; };
+		3EC324DB1C673B46001A631C /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324DA1C673B46001A631C /* SignInRootViewController.swift */; };
+		3EC324DD1C673B51001A631C /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324DC1C673B51001A631C /* SignUpRootViewController.swift */; };
+		3EC324DF1C674363001A631C /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324DE1C674363001A631C /* TermsViewController.swift */; };
+		3EC324E11C6748BF001A631C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324E01C6748BF001A631C /* SettingsViewController.swift */; };
+		3EC324E31C67B750001A631C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324E21C67B750001A631C /* ForgotPasswordViewController.swift */; };
+		3EC324E51C67C435001A631C /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324E41C67C435001A631C /* ExistingPhotosViewController.swift */; };
+		3EC324E71C6865D5001A631C /* FileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324E61C6865D5001A631C /* FileDetailViewController.swift */; };
+		3EC324E91C686C7F001A631C /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324E81C686C7F001A631C /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		3EC324CA1C670D71001A631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC324CD1C670D71001A631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC324CF1C670D71001A631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC324D51C672BDC001A631C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3EC324D71C672BED001A631C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3EC324DA1C673B46001A631C /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		3EC324DC1C673B51001A631C /* SignUpRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpRootViewController.swift; sourceTree = "<group>"; };
+		3EC324DE1C674363001A631C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		3EC324E01C6748BF001A631C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3EC324E21C67B750001A631C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3EC324E41C67C435001A631C /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		3EC324E61C6865D5001A631C /* FileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDetailViewController.swift; sourceTree = "<group>"; };
+		3EC324E81C686C7F001A631C /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +77,29 @@
 				3EC324C31C670D71001A631C /* AppDelegate.swift */,
 				3EC324C51C670D71001A631C /* ViewController.swift */,
 				3EC324C71C670D71001A631C /* Main.storyboard */,
+				3EC324D91C673B2B001A631C /* ViewControllers */,
 				3EC324CA1C670D71001A631C /* Assets.xcassets */,
 				3EC324CC1C670D71001A631C /* LaunchScreen.storyboard */,
 				3EC324CF1C670D71001A631C /* Info.plist */,
 			);
 			path = Dropbox;
+			sourceTree = "<group>";
+		};
+		3EC324D91C673B2B001A631C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EC324E41C67C435001A631C /* ExistingPhotosViewController.swift */,
+				3EC324E81C686C7F001A631C /* FavoriteViewController.swift */,
+				3EC324E61C6865D5001A631C /* FileDetailViewController.swift */,
+				3EC324E21C67B750001A631C /* ForgotPasswordViewController.swift */,
+				3EC324D51C672BDC001A631C /* SignInViewController.swift */,
+				3EC324DE1C674363001A631C /* TermsViewController.swift */,
+				3EC324E01C6748BF001A631C /* SettingsViewController.swift */,
+				3EC324DA1C673B46001A631C /* SignInRootViewController.swift */,
+				3EC324DC1C673B51001A631C /* SignUpRootViewController.swift */,
+				3EC324D71C672BED001A631C /* SignUpViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +174,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC324DB1C673B46001A631C /* SignInRootViewController.swift in Sources */,
 				3EC324C61C670D71001A631C /* ViewController.swift in Sources */,
+				3EC324E71C6865D5001A631C /* FileDetailViewController.swift in Sources */,
+				3EC324DD1C673B51001A631C /* SignUpRootViewController.swift in Sources */,
 				3EC324C41C670D71001A631C /* AppDelegate.swift in Sources */,
+				3EC324D81C672BED001A631C /* SignUpViewController.swift in Sources */,
+				3EC324E31C67B750001A631C /* ForgotPasswordViewController.swift in Sources */,
+				3EC324E51C67C435001A631C /* ExistingPhotosViewController.swift in Sources */,
+				3EC324D61C672BDC001A631C /* SignInViewController.swift in Sources */,
+				3EC324DF1C674363001A631C /* TermsViewController.swift in Sources */,
+				3EC324E91C686C7F001A631C /* FavoriteViewController.swift in Sources */,
+				3EC324E11C6748BF001A631C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +333,7 @@
 				3EC324D41C670D71001A631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
